@@ -1,6 +1,6 @@
-# Personal-Projects
-A collection of my projects.
+# Visualisations
 
+Libraries used:
 PyGame - https://pypi.org/project/pygame/
 Matplotlib - https://matplotlib.org/
 NumPy - https://numpy.org/
