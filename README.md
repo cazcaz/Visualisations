@@ -11,24 +11,32 @@ Takes three lists of coordinates which each describe a polygon. The polygons are
 
 Requires Matplotlib
 
-![alt text](https://github.com/cazcaz/Visualisations/blob/main/3DSwordVisualisatoin.gif)
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/3DSwordVisualisation.gif)
 
 ### Fourier
 Visualises many circles created by the sines and cosines that make up a fourier series of a function. Since it uses the odd half range expansion for the fourier series, all functions are represented as odd functions when plotted. Pressing the up and down arrow keys changes the accuracy of the visualisation, and the program currently shows the function x^2.
 
 Requires PyGame
 
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/FourierVisualisation.gif)
+
 ### Fourier_Piecewise
 Creates a simple plot of the fourier series of a piecewise function, inputted as a list of points, and assumes there is a line between each point.
 
 Requires Matplotlib
+
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/PiecewisePlotPicture.png)
 
 ### GradientMapPlot
 A test to use NumPy for the first time. It takes in a function of x and y and creates a gradient map as a top down view of the function. It currently shows the function (-exp(-xy))/(1-exp(-xy)).
 
 Requires Matplotlib, NumPy
 
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/GradientPlotPicture.png)
+
 ### ManyPartilceSim
 A test on visualising having lots of particles all under a force directed towards the centre of the screen.
 
 Requires Pygame
+
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/ManyParticleSim.gif)
