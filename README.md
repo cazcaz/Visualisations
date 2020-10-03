@@ -11,6 +11,8 @@ Takes three lists of coordinates which each describe a polygon. The polygons are
 
 Requires Matplotlib
 
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/3DSwordVisualisatoin.gif)
+
 ### Fourier
 Visualises many circles created by the sines and cosines that make up a fourier series of a function. Since it uses the odd half range expansion for the fourier series, all functions are represented as odd functions when plotted. Pressing the up and down arrow keys changes the accuracy of the visualisation, and the program currently shows the function x^2.
 
