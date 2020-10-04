@@ -7,7 +7,7 @@ Matplotlib - https://matplotlib.org/
 NumPy - https://numpy.org/
 
 ### 3DShapeMaker
-Takes three lists of coordinates which each describe a polygon. The polygons are placed on a plane made from two of the three standard coordinate axes and extended infinitely on the remaining axis. A large number of points are then tested, and if they are inside of all three of the extended polygons, then they are plotted and shown. The final result is a psuedo 3D-shape. Currently the program shows a 3D sword.
+Takes three lists of coordinates which each describe a polygon. The polygons are placed on a plane made from two of the three standard coordinate axes and extended infinitely on the remaining axis. A large number of points are then tested, and if they are inside of all three of the extended polygons, then they are plotted and shown. The final result is a pseudo 3D-shape. Currently the program shows a 3D sword.
 
 Requires Matplotlib
 
