@@ -5,6 +5,17 @@ Libraries used:
 PyGame - https://pypi.org/project/pygame/
 Matplotlib - https://matplotlib.org/
 NumPy - https://numpy.org/
+perlin-noise - https://pypi.org/project/perlin-noise/
+
+### Map generator
+Uses random noise generation to create layers of detail that once combined produces a range of heights resembling natural hills/mountains. The data is then taken and coloured according to the heights and finally a map is made.
+
+Requires perlin-noise, NumPy, Matplotlib
+
+### Map to Line Convertor
+Takes height values for a map and plots many 2D line graphs with the y-values determined by a single row of heights on the map. It then displaces them and adds random variation to give a 3D effect.
+
+Requires Matplotlib
 
 ### 3DShapeMaker
 Takes three lists of coordinates which each describe a polygon. The polygons are placed on a plane made from two of the three standard coordinate axes and extended infinitely on the remaining axis. A large number of points are then tested, and if they are inside of all three of the extended polygons, then they are plotted and shown. The final result is a pseudo 3D-shape. Currently, the program shows a 3D sword.
