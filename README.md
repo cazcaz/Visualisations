@@ -19,6 +19,8 @@ Takes height values for a map and plots many 2D line graphs with the y-values de
 
 Requires Matplotlib
 
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/LineMountain8layer.png)
+
 ### 3DShapeMaker
 Takes three lists of coordinates which each describe a polygon. The polygons are placed on a plane made from two of the three standard coordinate axes and extended infinitely on the remaining axis. A large number of points are then tested, and if they are inside of all three of the extended polygons, then they are plotted and shown. The final result is a pseudo 3D-shape. Currently, the program shows a 3D sword.
 
