@@ -12,6 +12,8 @@ Uses random noise generation to create layers of detail that once combined produ
 
 Requires perlin-noise, NumPy, Matplotlib
 
+![alt text](https://github.com/cazcaz/Visualisations/blob/main/myplot.png)
+
 ### Map to Line Convertor
 Takes height values for a map and plots many 2D line graphs with the y-values determined by a single row of heights on the map. It then displaces them and adds random variation to give a 3D effect.
 
